@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: 400;
+}
+body{
+    background: #007bff;
+}
+.start_btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    button{
+        font-size: 25px;
+        font-weight: 500;
+        color: #007bff;
+        padding: 15px 30px;
+        outline: none;
+        border: none;
+        background-color: #fff;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+}
+// Start Quiz 
+.info_box{
+    
+    width: 540px;
+    background:#fff;
+    border-radius: 5px;
+    .info_title{
+        height: 60px;
+        width: 100%;
+        border-bottom: 1px solid lightgray;
+        display: flex;
+        align-items: center;
+        padding: 0px 35px;
+        font-size: 20px;
+
+    }
+    .info_list{
+        padding: 15px 30px;
+    }
+    .buttons{
+        height: 60px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0px 35px;
+        border-top: 1px solid lightgray;
+        button{
+            margin: 0 5px ;
+            height: 40px;
+            width: 100px;
+            border: 1px solid #007bff;
+            background:#007bff;
+            border-radius: 5px;
+            color:#fff;
+            font-size:16px;
+            font-weight: 500;
+            cursor: pointer;
+        }
+    }
+}
