@@ -14,7 +14,7 @@
     </div>
     <!-- Info Box -->
     <div class="info_box">
-        <div class="info_title">
+        <div class="info_title d-flex flex-items-center ">
             <span>Some Rules of this Quiz</span>
         </div>
         <div class="info_list">
@@ -22,12 +22,59 @@
             <div class="info">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
             <div class="info">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
         </div>
-        <div class="buttons">
+        <div class="buttons d-flex flex-items-center flex-justify-end">
             <button class="quit">Exit Quiz</button>
             <button class="restart">Continute</button>
         </div>
     </div>
- 
+    <!-- Question Box  -->
+    <div class="question_box">
+        <div class="question_header d-flex flex-justify-between flex-items-center">
+            <p class="question_header_title">Awesome Quiz Application</p>
+            <div class="timer d-flex flex-items-center">
+                <span>Time Left</span>
+                <div class="time_box">15</div>
+            </div>
+        </div>
+        <div class="question_body">
+            <h4 class="question_title">Them header trong wordpress su dung ham nao ?</h4>
+            <div class="question_list">
+                <!-- <div class="question_item d-flex flex-justify-between">
+                    <p>Su dung the_header()</p>
+                    <p>X</p>
+                </div>
+                <div class="question_item d-flex flex-justify-between">
+                    <p>Su dung the_header()</p>
+                    <p>X</p>
+                </div>
+                <div class="question_item d-flex flex-justify-between">
+                    <p>Su dung the_header()</p>
+                    <p>X</p>
+                </div>
+                <div class="question_item d-flex flex-justify-between">
+                    <p>Su dung the_header()</p>
+                    <p>X</p>
+                </div> -->
+            </div>
+            <div class="question-step d-flex flex-justify-between flex-items-center">
+                <div class="total_que">
+                   
+                </div>
+                <button class="btn-common next_btn">Next Question</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Complete Quiz -->
+    <div class="complete_box">
+        <p>You've complete the Quiz</p>
+        <p>You got 2 to of 5</p>
+        <div class="complete_button">
+            <button>Replay Quiz</button>
+            <button>Quit Quiz</button>
+        </div>
+    </div>
+    <script src="question.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
